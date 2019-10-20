@@ -51,7 +51,20 @@ class _CarState extends State<Car> {
                     },
                   );
                 }
-              })
+              }),
+          Container(
+            height: _height / 4,
+            color: Colors.white,
+            padding: EdgeInsets.all(16),
+            child: Text(
+              'Hidup terlalu pendek untuk mengendarai mobil yang itu-itu saja'
+                  'di Nemob anda dapat menyewa berbagai mobil spesial seperti Lamborgini, Ferari'
+                  'Lemus, Hummel, Range Rover, BMW, Mercedez Benz, Porche dan masih banyak lagi'
+                  'pada nemob App. Nemob ada untuk memudahkan anda untuk menyewa mobil untuk keperluan liburan,'
+                  'pernikahan atau kebutuhan bisnis. Sewa mobil mewah menjadi lebih mudah di Nemob'
+                  'dapatkan harga terbaik. pesan Sekarang !', style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+            ),
+          )
         ],
       ),
     );
