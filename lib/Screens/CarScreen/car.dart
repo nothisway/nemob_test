@@ -72,7 +72,6 @@ class _CarState extends State<Car> {
 
   Widget _carAdapter(
       BuildContext context, int index, List<CarListModel> listItem) {
-//    print(listItem[0].harga.toString());
     return CarCard(
           image: listItem[index].CarImage,
           price: listItem[index].StartFromPrice.toString(),
